@@ -17,3 +17,7 @@ body {
     background-size: cover;
     -o-background-size: cover;
 }
+.modal .modal-content {
+    padding: 50px;
+    top:10%;
+}

@@ -7,14 +7,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Animatemodal">
+    <meta name="author" content="Vitaly Karakushan">
 
-    <title>Full - Start Bootstrap Template</title>
+    <title>Animatemodal</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="animatemodal/animate-modal.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
     <!-- Custom CSS -->
     <link href="css/full.css" rel="stylesheet">
 
@@ -23,52 +24,67 @@
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+        <![endif]-->
 
-</head>
+    </head>
 
-<body>
+    <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Animate modal</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#" data-target="#modal" class="modal-open">Окно без анимации</a>
+                        </li>
+                        <li>
+                            <a href="#" data-target="#modal" class="modal-animate">Окно с анимацией</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Services</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+            <!-- /.container -->
+        </nav>
 
-    <!-- Put your page content here! -->
+        <!-- Put your page content here! -->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+        <div class="modal" id="modal">
+           <div class="modal-content" >
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus placeat autem, natus, nisi laborum at illum eos molestiae aperiam a modi saepe totam enim facilis commodi quisquam alias maiores dolorum assumenda deleniti aut, illo animi veritatis, rem inventore. Non eaque hic voluptatum, aspernatur deleniti rerum labore repudiandae culpa eos accusantium aliquid eum fugiat deserunt ad, vero. Beatae eligendi harum, accusantium quasi ab rerum officia adipisci id consequatur iure! Doloribus saepe omnis non harum. Natus dolores, porro et nesciunt maiores quidem nobis dolorem molestiae, accusamus perferendis quisquam suscipit, itaque harum, quia nulla voluptatum architecto sunt incidunt? Itaque animi unde nam quis quisquam veritatis error similique, autem qui libero. Repellat totam culpa quisquam nulla quo et ratione nam itaque eligendi consectetur exercitationem voluptas dicta sapiente corrupti enim alias nostrum dolor, officia qui voluptatem ipsam. Porro nisi, veniam sunt maiores, perferendis ipsa reprehenderit saepe consequuntur, sint hic vel excepturi aliquam quaerat dignissimos voluptate beatae. In blanditiis odit velit sequi facere sapiente officia facilis numquam. Laudantium, quidem! Autem necessitatibus deserunt minima aspernatur culpa ullam nostrum provident similique, recusandae, quisquam quia consequatur, eligendi. Maxime soluta excepturi doloribus aliquam distinctio nobis maiores repudiandae possimus cumque quam repellat, magnam dicta molestiae eos laudantium nemo dolore incidunt. Eius sit provident ratione amet, sapiente excepturi inventore ad corporis nam doloremque, voluptatem praesentium ex quidem! Ducimus at reprehenderit, ex officia sequi omnis esse pariatur et sint odio sapiente error quas possimus quae maxime, itaque voluptatibus, quam consectetur doloremque atque! Autem consectetur illum aperiam perspiciatis, voluptatem vel impedit aut, necessitatibus nesciunt, cum illo? At, nulla voluptatibus nisi architecto ea soluta inventore totam exercitationem id, rerum quae voluptates deserunt omnis suscipit incidunt? Nobis, dolorum totam inventore iure sed dolor, recusandae cumque asperiores error magni cum voluptate praesentium impedit expedita! Eos velit quia dolorem, laborum ut commodi odio, amet aperiam autem enim, eaque.
+         </div>
+     </div>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+     <!-- jQuery -->
+     <script src="../js/jquery.js"></script>
+     <script src="animatemodal/animate-modal.js"></script>
+     <script type="text/javascript">
+         jQuery(document).ready(function($) {
+             $('.modal-open').animatemodal({
+             }); 
+             $('.modal-animate').animatemodal({
+                animate: "animated rollIn"
+            });
+         });
 
-</body>
+     </script>
 
-</html>
+     <!-- Bootstrap Core JavaScript -->
+     <script src="../js/bootstrap.min.js"></script>
+
+
+ </body>
+
+ </html>
